@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../layout';
-import './indexPage.scss';
+import './page.scss';
 
 class IndexPage extends React.PureComponent<{}, {}> {
   public render() {
@@ -9,7 +9,7 @@ class IndexPage extends React.PureComponent<{}, {}> {
       <Layout>
         <h1>Welcome to Know the Truth series!</h1>
         <h2>Please click link below to see monthly lesson</h2>
-        <ol>
+        <ol className="page__videoList">
           <li>
             <strong>February 2018: </strong>
             <Link to="/what-must-I-do-to-be-saved/">

@@ -2,3 +2,12 @@
     max-width: 600px;
     margin: 0 auto;
 }
+
+.page__videoList {
+    list-style: none;
+    padding: 0;
+}
+
+.page__videoList li:not(:last-child) {
+    margin-bottom: 16px;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Layout from '../layout';
+import Form from '../components/Form';
 import './page.scss';
 
 class ChooseToOverCome extends React.PureComponent<{}, {}> {
@@ -28,6 +29,8 @@ class ChooseToOverCome extends React.PureComponent<{}, {}> {
             allowFullScreen={true}
           />
         </div>
+
+        <Form />
       </Layout>
     );
   }
