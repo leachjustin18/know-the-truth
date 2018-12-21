@@ -16,7 +16,7 @@ class WhatMustIDoToBeSaved extends React.PureComponent<{}, {}> {
             },
           ]}
         />
-        <h1 className="page__title">What Must I Do To Be Saved?</h1>
+        <h1>What Must I Do To Be Saved?</h1>
 
         <div className="page__video">
           <iframe
