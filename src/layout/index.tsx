@@ -43,22 +43,12 @@ class Layout extends React.Component<LayoutProps, {}> {
                     name: 'description',
                     content: 'Gatsby TypeScript Boilerplate Starter',
                   },
-                  { name: 'keywords', content: 'Gatsby, TypeScript, Starter' },
                 ]}
               >
                 <html lang="en" />
               </Helmet>
               <Header siteTitle={siteMetadata.title} />
-              <div
-                style={{
-                  margin: '0 auto',
-                  maxWidth: 960,
-                  padding: '0px 1.0875rem 1.45rem',
-                  paddingTop: 0,
-                }}
-              >
-                {children}
-              </div>
+              <main className="layout">{children}</main>
             </>
           );
         }}

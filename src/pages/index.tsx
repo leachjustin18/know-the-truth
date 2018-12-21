@@ -7,10 +7,11 @@ class IndexPage extends React.PureComponent<{}, {}> {
   public render() {
     return (
       <Layout>
-        <h1>Hi people</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-        <Link to="/page-2/">Go to page 2</Link>
+        <h1>Welcome to Know the Truth series!</h1>
+        <h2>Please click link below to see monthly lesson</h2>
+        <Link to="/what-must-I-do-to-be-saved/">
+          What Must I Do To Be Saved?
+        </Link>
       </Layout>
     );
   }
