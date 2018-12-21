@@ -6,7 +6,7 @@ class Form extends React.PureComponent<{}, {}> {
       <form>
         <h4>Want to learn more?</h4>
 
-        <h5>Email us and we will send you a corresponding corse!</h5>
+        <h5>Email us and we will send you a corresponding course!</h5>
 
         <div>
           <label htmlFor="first">First Name</label>
